@@ -184,3 +184,19 @@ Ausführung der Tests:
 ```bash
 pytest -v
 ```
+
+## Verwendeter Prompt
+
+```
+Erstelle eine Python-basierte Software zur 2D/3D-Simulation der Wirbelschleppen eines Flugzeugs während der Landung mithilfe numerischer Strömungsmechanik (CFD). Nutze die Lattice-Boltzmann-Methode oder Finite-Volumen-Methode für die Diskretisierung der Navier-Stokes-Gleichungen. Die Simulation soll:
+Physikalische Parameter wie Luftdichte, Viskosität, Flugzeuggeometrie (z. B. Flügelprofil NACA 0012) und Anströmgeschwindigkeit (z. B. 50–100 m/s) berücksichtigen.
+Wirbelbildung (z. B. durch Auftriebskräfte) und Zeitentwicklung der Schleppen modellieren.
+Echtzeit-Visualisierung der Strömungsfelder (Geschwindigkeit, Druck, Wirbelstärke) via Matplotlib oder PyVista ermöglichen.
+Optimiert für normale Hardware (CPU/GPU-Beschleunigung optional via Numba/CUDA) sein.
+Modular aufgebaut sein (z. B. Separation von Preprocessing, Solver, Postprocessing).
+Einfache Benutzeroberfläche (CLI oder minimalistische GUI mit Tkinter/PyQt) zur Parameter-Eingabe bieten.
+Validierung durch Vergleich mit analytischen Lösungen (z. B. Prandtl’s Lifting-Line-Theorie) oder experimentellen Daten ermöglichen.
+Gib den vollständigen Code inkl. Kommentare, Anforderungen (requirements.txt), und eine kurze Anleitung zur Ausführung. Nutze Bibliotheken wie NumPy, SciPy, OpenFOAM-Python (falls verfügbar), oder FEniCS für die numerische Implementierung. Priorisiere Einfachheit und Performance für einen Standard-PC (8–16 GB RAM, 4+ CPU-Kerne).
+```
+
+LLM Model: Gemini 3.7 Flash
